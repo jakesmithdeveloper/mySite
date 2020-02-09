@@ -7,6 +7,11 @@ a {
   text-decoration: none;
 }
 
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
 .links {
   text-align: center;
   font-family: 'Sriracha', cursive;
