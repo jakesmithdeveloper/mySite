@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  text-align: center;
+  font-family: 'Sriracha', cursive;
+  font-size: 28px;
+  color: black;
+}
+
+.proj {
+  transform: rotate(-24deg);
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+
+.blog {
+  transform: rotate(17.05deg);
+  position: relative;
+  top: 35px;
+  left: 60px;
+}
+
+.rot-blog {
+  transform: rotate(24deg);
+}
+
+.me {
+  text-align: center;
+}
+
+.laptop-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.laptop {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 685px;
+  height: 530px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: #C4C4C4;
+  position: relative;
+  bottom: 75px;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sticker-jakesmithinfo {
+  margin: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 215px;
+  height: 125px;
+  background-color: #FFFDD0;
+}
+
+.sticker-jakesmithinfo a {
+  color: #0047AB;
+  font-family: 'Sriracha', cursive;
+  font-size: 28px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.sticker-poop {
+  max-width: 75px;
+  max-height: 75px;
+  margin: 40px 0 0 20px;
+}
+
+.spotify-beer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sticker-spotify {
+  margin: 10px 0 0 20px;
+} .sticker-spotify img {
+  max-width: 160px;
+  max-height: 48px;
+}
+
+.sticker-beer {
+  margin: 10px 0 0 50px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.sticker-github {
+  max-width: 190px;
+  max-height: 160px;
+}
+
+.sticker-js {
+  max-width: 96px;
+  max-height: 96px;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+}
+
+.sticker-react {
+  max-width: 170px;
+  max-height: 126px;
+  position: relative;
+  bottom: 40px;
+}
+
+.sticker-swift {
+  max-width: 145px;
+  max-height: 130px;
+  position: relative;
+  bottom: 40px;
+  right: 20px;
+}
+.sticker-instagram {
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+} .sticker-instagram img {
+  max-width: 134px;
+  max-height: 134px;
+}
+
+.sticker-twitter {
+  position: relative;
+  bottom: 30px;
+} .sticker-twitter img {
+  max-width: 156px;
+  max-height: 156px;
+}
+
+.sticker-coffee {
+  max-width: 82px;
+  max-height: 82px;
+  position: relative;
+  bottom: 70px;
+  right: 30px;
+}
+
+.sticker-projects {
+  position: relative;
+  bottom: 70px;
+  right: 40px;
+} .sticker-projects img {
+  max-width: 128px;
+  max-height: 128px;
+}
+
+.sticker-ufo {
+  max-width: 128px;
+  max-height: 128px;
+  transform: rotate(5.35deg);
+  position: relative;
+  bottom: 80px;
+  left: 30px;
+}
+
+.sticker-basketball {
+  max-width: 119px;
+  max-height: 119px;
+  position: relative;
+  bottom: 55px;
+  left: 30px;
+}
+
+.sticker-blog {
+  max-width: 128px;
+  max-height: 128px;
+  position: relative;
+  bottom: 90px;
+  right: 10px;
+}
+
+.sticker-cat {
+  max-width: 130px;
+  max-height: 130px;
+  position: relative;
+  bottom: 80px;
+  left: 10px;
+}
+
+.sticker-dev {
+  position: relative;
+  bottom: 100px;
+}
+
+.sticker-dev img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.git-bash {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 60px;
+}
+
+.sticker-git {
+  max-width: 110px;
+  max-height: 45px;
+}
+
+.sticker-bash {
+  max-width: 120px;
+  max-height: 50px;
+}
+
+.desk-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desk {
+  width: 875px;
+  height: 60px;
+  background-color: #6B3600;
+  position: relative;
+  bottom: 75px;
+}
+
