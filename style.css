@@ -269,3 +269,26 @@ a:hover, a:active { text-decoration: none; color:black }
   bottom: 2.6785714285714284em;
 }
 
+@media (max-width:500px) {
+  html {
+    font-size: .75em;
+  }
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 25.6px;
+  }
+}
