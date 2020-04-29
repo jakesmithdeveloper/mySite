@@ -1,292 +1,250 @@
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} 
-
 html {
-  font-size: 1.944vw;
+  font-size: 2vw;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+body {
+  margin: 40px;
 }
 
-a {
-  text-decoration: none; color: black;
-}
-
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
-
-.links {
+header {
   text-align: center;
-  font-family: 'Sriracha', cursive;
-  color: black;
+  margin-bottom: 40px;
 }
 
-.proj {
-  transform: rotate(-24deg);
-  position: relative;
-  top: 3.5714285714285716em;
-  right: 3.5714285714285716em;
+header a {
+  font-family: 'Source Code Pro', monospace;
+  color: #ff4554;
 }
 
-.blog {
-  transform: rotate(17.05deg);
-  position: relative;
-  top: 1.25em;
-  left:2.142857142857143em;
+header {
+  color: #989898;
 }
 
-.rot-blog {
-  transform: rotate(24deg);
-}
-
-.overall-container {
+.img-container {
+  margin: 0 auto;
+  width: 70%;
+  min-width: 375px;
+  max-width: 840px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .me {
-  width: 14.214285714285714em;
-  height: 8.214285714285714em;
-}
-
-.laptop {
-  display: flex;
-  flex-direction: column;
-  width: 24.464285714285715em;
-  height: 18.928571428571427em;
-  margin: 0 auto;
-  border-radius:1.7857142857142858em;
-  background-color: #C4C4C4;
+  max-width: 332px;
+  min-width: 220px;
+  width: 40%;
+  z-index: -2;
   position: relative;
-  bottom:2.6785714285714284em;
+  margin-bottom: -15%;
 }
 
-.row-1 {
-  display: flex;
-  flex-direction: row;
-}
-
-.row-2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.row-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.row-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.sticker-jakesmithinfo {
-  margin: 0.7142857142857143em 0 0 0.7142857142857143em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 7.678571428571429em;
-  height: 4.464285714285714em;
-  background-color: #FFFDD0;
-}
-
-.sticker-jakesmithinfo a {
-  color: #0047AB;
-  font-family: 'Sriracha', cursive;
-  text-decoration: none;
+.about-me { 
+  width: 30em;
+  font-size: 1.25em;
+  max-width: 768px;
+  min-width: 375px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.sticker-poop {
-  max-width: 2.6785714285714284em;
-  max-height: 2.6785714285714284em;
-  margin: 1.4285714285714286em 0 0 0.7142857142857143em;
+.about-me p {
+  font-family: 'Source Code Pro', monospace;
 }
 
-.spotify-beer {
+.grid-container {
+  display: grid;
+  background-color: #C4C4C4;
+  color: #ffffff;
+
+  width: 70%;
+  height: 50vw;
+
+  max-width: 840px;
+  max-height: 640px;
+
+  min-width: 375px;
+  min-height: 300px;
+
+  margin: 0 auto;
+  border-radius: 10%;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.sticker-jakesmith {
+  grid-row: 1;
+  grid-column: 1/3;
+  object-fit: fill;
+  width: auto;
+  margin: auto;
+}
+
+.sticker-running {
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 5%;
+  margin-left: -5%;
+}
+
+.sticker-group-spotify-beer {
   display: flex;
   flex-direction: column;
+
+  grid-row: 1;
+  grid-column: 4;
+
+  margin-top: 10%
 }
 
 .sticker-spotify {
-  margin:0.35714285714285715em 0 0 0.7142857142857143em;
-} .sticker-spotify img {
-  max-width: 5.714285714285714em;
-  max-height: 1.7142857142857142em;
 }
 
 .sticker-beer {
-  margin: 0.35714285714285715em 0 0 1.7857142857142858em;
-  max-width: 3.5714285714285716em;
-  max-height: 3.5714285714285716em;
+  max-width: 80px;
+  margin-left: 15%;
 }
 
 .sticker-github {
-  max-width: 6.785714285714286em;
-  max-height: 5.714285714285714em;
+  grid-row: 1;
+  grid-column: 5;
+  width: 125%;
+  margin-left: -10%;
+  margin-top: 20px
 }
 
 .sticker-js {
-  max-width: 3.4285714285714284em;
-  max-height: 3.4285714285714284em;
-  position: relative;
-  bottom: 0.7142857142857143em;
-  left: 0.35714285714285715em;
+  grid-row: 2;
+  grid-column: 1;
+  margin-left: 10%;
 }
 
 .sticker-react {
-  max-width: 6.071428571428571em;
-  max-height: 4.5em;
-  position: relative;
-  bottom: 1.4285714285714286em;
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: -40%;
+  margin-left: 25%;
 }
 
 .sticker-swift {
-  max-width: 5.178571428571429em;
-  max-height: 4.642857142857143em;
-  position: relative;
-  bottom: 1.4285714285714286em;
-  right:0.7142857142857143em;
+  grid-row: 2;
+  grid-column: 3;
 }
+
 .sticker-instagram {
-  position: relative;
-  bottom: 0.7142857142857143em;
-  left: 1.0714285714285714em;
-} .sticker-instagram img {
-  max-width: 4.785714285714286em;
-  max-height: 4.785714285714286em;
+  grid-row: 2;
+  grid-column: 4;
 }
 
 .sticker-twitter {
-  position: relative;
-  bottom: 1.0714285714285714em;
-} .sticker-twitter img {
-  max-width: 5.571428571428571em;
-  max-height: 5.571428571428571em;
+  grid-row: 2;
+  grid-column: 5;
+
 }
 
 .sticker-coffee {
-  max-width: 2.9285714285714284em;
-  max-height: 2.9285714285714284em;
-  position: relative;
-  bottom: 2.5em;
-  right: 1.0714285714285714em;
+  grid-row: 3;
+  grid-column: 1/3;
+  margin-left: -10%;
 }
 
 .sticker-projects {
-  position: relative;
-  bottom: 2.5em;
-  right: 1.4285714285714286em;
-} .sticker-projects img {
-  max-width: 4.571428571428571em;
-  max-height: 4.571428571428571em;
+  grid-row: 3;
+  grid-column: 2/4;
+
+  margin-left: -5%;
+  margin-top: -5%;
 }
 
 .sticker-ufo {
-  max-width: 4.571428571428571em;
-  max-height: 4.571428571428571em;
-  transform: rotate(5.35deg);
-  position: relative;
-  bottom: 2.857142857142857em;
-  left: 1.0714285714285714em;
+  grid-row: 3;
+  grid-column: 3/5;
+  margin-left: 10%;
+  transform: rotate(15deg);
 }
 
 .sticker-basketball {
-  max-width: 4.25em;
-  max-height: 4.25em;
-  position: relative;
-  bottom: 1.9642857142857142em;
-  left: 1.0714285714285714em;
+  grid-row: 3;
+  grid-column: 4/6;
+  margin-left: 7.5%;
 }
 
 .sticker-blog {
-  max-width: 4.571428571428571em;
-  max-height: 4.571428571428571em;
-  position: relative;
-  bottom: 3.2142857142857144em;
-  right: 0.35714285714285715em;
+  grid-row: 4;
+  grid-column: 1/3;
+  margin-left: -7.5%;
+  margin-top: 10%;
 }
 
 .sticker-cat {
-  max-width: 4.642857142857143em;
-  max-height: 4.642857142857143em;
-  position: relative;
-  bottom: 2.857142857142857em;
-  left: 0.35714285714285715em;
+  grid-row: 4;
+  grid-column: 2/4;
 }
 
 .sticker-dev {
-  position: relative;
-  bottom: 3.5714285714285716em;
+  grid-row: 4;
+  grid-column: 3/5;
+  margin-left: 3.5%;
 }
 
-.sticker-dev img {
-  max-width: 5.357142857142857em;
-  max-height: 5.357142857142857em;
-}
-
-.git-bash {
+.sticker-group-git-bash {
   display: flex;
   flex-direction: column;
-  position: relative;
-  bottom: 2.142857142857143em;
+  
+  align-items: center;
+
+  grid-row: 4;
+  grid-column: 4/6;
+
+  margin-left: 20%;
 }
 
 .sticker-git {
-  max-width: 3.9285714285714284em;
-  max-height: 1.6071428571428572em;
+  max-width: 50%;
 }
-
 .sticker-bash {
-  max-width: 4.285714285714286em;
-  max-height: 1.7857142857142858em;
+  max-width: 50%;
 }
 
-.desk-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.grid-container img {
+  object-fit: scale-down;
+  width: 100%;
+  max-height: 100%;
 }
 
-.desk {
-  width: 31.25em;
-  height: 2.142857142857143em;
-  background-color: #6B3600;
-  position: relative;
-  bottom: 2.6785714285714284em;
+.grid-container a {
+  height: 100%
 }
 
-@media (max-width:500px) {
-  html {
-    font-size: .75em;
-  }
+.bottom-row {
+  margin-top: -5%
 }
 
-@media (min-width: 500px) {
-  html {
-    font-size: 1em;
-  }
+a {
+  text-decoration: none;
+  color: black;
 }
 
-@media (min-width: 800px) {
-  html {
-    font-size: 2vw;
-  }
+a .img {
+  object-fit: scale-down;
+  width: 100%;
+  max-height: 100%;
 }
 
-@media (min-width: 1280px) {
-  html {
+.desk-container {
+  width: 75%;
+  height: 30px;
+  max-width: 860px;
+  min-width: 375px;
+  margin: 0 auto;
+  background-color: #6f4e37;
+}
+
+@media screen and (min-width: 1281px) {
+  .about-me {
     font-size: 25.6px;
   }
 }
