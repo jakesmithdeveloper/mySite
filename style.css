@@ -1,242 +1,101 @@
-html {
-  font-size: 2vw;
+body {
+  font-size: 1vw;
 }
 
-header {
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.img-me {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 31.487em;
+  height: 31.487em;
+}
+
+.laptop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54.193em;
+  height: 41.930em;
+  border-radius: 5.934em;
+  background-color: #c4c4c4;
+  top: 15.823vw;
+}
+
+header{
   text-align: center;
-  margin-bottom: 40px;
 }
 
 header a {
-  font-family: 'Source Code Pro', monospace;
-  color: #ff4554;
+  margin-right: 3.956vw;
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
 }
 
-header {
-  color: #989898;
+a:visited {
+  text-decoration: none;
+  color: black;
 }
-
-.img-container {
-  margin: 0 auto;
-  width: 70%;
-  min-width: 375px;
-  max-width: 840px;
-  display: flex;
-  justify-content: center;
-  position: relative;
+a:link {
+  text-decoration: none;
+  color: black;
 }
-
-.me {
-  max-width: 332px;
-  min-width: 220px;
-  width: 40%;
-  z-index: -2;
-  position: relative;
-  margin-bottom: -15%;
+a:hover {
+  text-decoration: none;
+  color: black;
 }
-
-.about-me { 
-  width: 30em;
-  font-size: 1.25em;
-  max-width: 768px;
-  min-width: 375px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.about-me p {
-  font-family: 'Source Code Pro', monospace;
-}
-
-.grid-container {
-  display: grid;
-  background-color: #C4C4C4;
-  color: #ffffff;
-
-  width: 70%;
-  height: 50vw;
-
-  max-width: 840px;
-  max-height: 640px;
-
-  min-width: 375px;
-  min-height: 300px;
-
-  margin: 0 auto;
-  border-radius: 10%;
-
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.sticker-jakesmith {
-  grid-row: 1;
-  grid-column: 1/3;
-  object-fit: fill;
-  width: auto;
-  margin: auto;
-}
-
-.sticker-running {
-  grid-row: 1;
-  grid-column: 3;
-  margin-top: 5%;
-  margin-left: -5%;
-}
-
-.sticker-group-spotify-beer {
-  display: flex;
-  flex-direction: column;
-
-  grid-row: 1;
-  grid-column: 4;
-
-  margin-top: 10%
-}
-
-.sticker-spotify {
-}
-
-.sticker-beer {
-  max-width: 80px;
-  margin-left: 15%;
-}
-
-.sticker-github {
-  grid-row: 1;
-  grid-column: 5;
-  width: 125%;
-  margin-left: -10%;
-  margin-top: 20px
-}
-
-.sticker-js {
-  grid-row: 2;
-  grid-column: 1;
-  margin-left: 10%;
-}
-
-.sticker-react {
-  grid-row: 2;
-  grid-column: 2;
-  margin-top: -40%;
-  margin-left: 25%;
-}
-
-.sticker-swift {
-  grid-row: 2;
-  grid-column: 3;
-}
-
-.sticker-instagram {
-  grid-row: 2;
-  grid-column: 4;
-}
-
-.sticker-twitter {
-  grid-row: 2;
-  grid-column: 5;
-
-}
-
-.sticker-coffee {
-  grid-row: 3;
-  grid-column: 1/3;
-  margin-left: -10%;
-}
-
-.sticker-projects {
-  grid-row: 3;
-  grid-column: 2/4;
-
-  margin-left: -5%;
-  margin-top: -5%;
-}
-
-.sticker-ufo {
-  grid-row: 3;
-  grid-column: 3/5;
-  margin-left: 10%;
-  transform: rotate(15deg);
-}
-
-.sticker-basketball {
-  grid-row: 3;
-  grid-column: 4/6;
-  margin-left: 7.5%;
-}
-
-.sticker-blog {
-  grid-row: 4;
-  grid-column: 1/3;
-  margin-left: -7.5%;
-  margin-top: 10%;
-}
-
-.sticker-cat {
-  grid-row: 4;
-  grid-column: 2/4;
-}
-
-.sticker-dev {
-  grid-row: 4;
-  grid-column: 3/5;
-  margin-left: 3.5%;
-}
-
-.sticker-group-git-bash {
-  display: flex;
-  flex-direction: column;
-  
-  align-items: center;
-
-  grid-row: 4;
-  grid-column: 4/6;
-
-  margin-left: 20%;
-}
-
-.sticker-git {
-  max-width: 50%;
-}
-.sticker-bash {
-  max-width: 50%;
-}
-
-.grid-container img {
-  object-fit: scale-down;
-  width: 100%;
-  max-height: 100%;
-}
-
-.grid-container a {
-  height: 100%
-}
-
-.bottom-row {
-  margin-top: -5%
-}
-
-a {
+a:active {
   text-decoration: none;
   color: black;
 }
 
-.desk-container {
-  width: 75%;
-  height: 30px;
-  max-width: 860px;
-  min-width: 375px;
-  margin: 0 auto;
-  background-color: #6f4e37;
+@media (min-width: 785px) {
+  header a { 
+    font-size: 32px
+  }
 }
 
-@media screen and (min-width: 1281px) {
-  .about-me {
-    font-size: 20px;
+@media(min-width: 1264px) {
+  .laptop {
+    width: 685px;
+    height: 530px;
+    border-radius: 75px;
+    top: 202px;
+  }
+
+  header a {
+    margin-right: 50px;
+  }
+
+  .img-me {
+    width: 403px;
+    height: 403px;
+  }
+}
+
+@media(max-width: 600px) {
+  .laptop {
+    width: 330px;
+    height: 255px;
+    border-radius: 35px;
+    top: 95px;
+  }
+
+  header a {
+    font-size: 16px;
+  }
+
+  .img-me {
+    width: 189px;
+    height: 189px;
   }
 }
