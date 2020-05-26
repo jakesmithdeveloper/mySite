@@ -31,6 +31,27 @@ body {
   top: 15.823vw;
 }
 
+.row-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-4 {
+  display: flex;
+  flex-direction: row;
+}
+
 header{
   text-align: center;
 }
