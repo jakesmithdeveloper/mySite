@@ -2,6 +2,19 @@ body {
   font-size: 1vw;
 }
 
+.about-me {
+  text-align: left;
+}
+
+.about-me h1 {
+  text-align: left;
+  font-size: 2.5em;
+}
+
+.about-me p {
+  font-size: 2em;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -31,6 +44,14 @@ body {
   top: 15.823vw;
 }
 
+.table {
+  position: relative;
+  bottom: 1.75%;
+  width: 100%;
+  height: 2.532vw;
+  background-color: #483A28;
+}
+
 .row-1 {
   width: 100%;
   display: flex;
@@ -54,6 +75,7 @@ body {
 
 .link-jakesmithinfo {
   width: 31.1%;
+  margin: 1.460% 0 0 1.460%; /* 10 px at 1264px width */
 }
 
 .sticker-jakesmithinfo {
@@ -62,6 +84,7 @@ body {
 
 .link-strava {
   width: 18.7%;
+  margin-top: 5.839%;
 }
 
 .sticker-strava {
@@ -70,6 +93,7 @@ body {
 
 .link-udel {
   width: 37.4%;
+  margin: 2.920% 0 0 5.839%;  /* 20px and 30px at 1264px width */
 }
 
 .sticker-udel {
@@ -78,6 +102,7 @@ body {
 
 .link-js {
   width: 18.7%;
+  margin: 0.730% 0 0 1.460%; /* 5px and 10px at 1264 width */
 }
 
 .sticker-js {
@@ -92,18 +117,24 @@ body {
 }
 .link-swift {
   width: 18.7%;
+  margin-left: 1.460%;
+  position: relative;
+  bottom: 15px;
 }
 
 .sticker-swift {
   width: 100%;
 }
-.link-beer {
+
+.link-music {
   width: 18.7%;
+  margin-left: 4.380%;
 }
 
-.sticker-beer {
+.sticker-music {
   width: 100%;
 }
+
 .link-instagram {
   width: 18.7%;
 }
@@ -138,6 +169,7 @@ body {
 
 .link-dev {
   width: 18.7%;
+  margin-left: 2.920%;
 }
 
 .sticker-dev {
@@ -146,6 +178,7 @@ body {
 
 .link-twitter {
   width: 18.7%;
+  margin-left: 1.460%;
 }
 
 .sticker-twitter {
@@ -154,6 +187,7 @@ body {
 
 .link-blog {
   width: 18.7%;
+  margin-left: 2.190%;
 }
 
 .sticker-blog {
@@ -162,9 +196,20 @@ body {
 
 .link-basketball {
   width: 18.7%;
+  margin-left: 2.190%;
+  position: relative;
+  bottom: 10px;
 }
 
 .sticker-basketball {
+  width: 100%;
+}
+
+.link-popcorn {
+  width: 18.7%;
+}
+
+.sticker-popcorn {
   width: 100%;
 }
 
@@ -178,6 +223,8 @@ body {
 
 .link-spotify {
   width: 18.7%;
+  position: relative;
+  left: 1.460%;
 }
 
 .sticker-spotify {
@@ -229,9 +276,24 @@ a:active {
     margin-right: 50px;
   }
 
+  .about-me h1 {
+    font-size: 32px;
+  }
+  .about-me p {
+    font-size: 25.6px;
+  }
+  
   .img-me {
     width: 403px;
     height: 403px;
+  }
+
+  .table {
+    height: 32.4px;
+  }
+
+  .row-4 {
+    height: 125px;
   }
 }
 
@@ -245,6 +307,14 @@ a:active {
 
   header a {
     font-size: 16px;
+  }
+
+  .about-me p {
+   font-size: 16px;
+  }
+
+  .about-me h1{
+    font-size: 20px;
   }
 
   .img-me {
